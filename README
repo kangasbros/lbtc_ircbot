@@ -1,0 +1,13 @@
+Okei, eli seuraavalla pitäisi lähtä käyntiin:
+
+java -cp jdom-1.1.3.jar:pircbotx-1.7.jar:rome-1.0.jar:. IRCBot [NICKNAME] [DEBUG/VERBOSE] [UPDATEINTERVAL] [[FREENODECHANNEL COUNTRY_RSS_END]]
+
+Eli debug/verboseen aina true tai false. Kun on true, tulostaa sinulle se IRC-kanaville yhdistykset.
+
+UPDATEINTERVAL Aina millisekunteissa, eli 60000 ms = 1 minuutti, ja 3600000 = 1 tunti.
+
+Sitten voi laittaa parametrejä sen jälkeen loputtomasti lisäkanaville, eli ensin kanavan nimi ILMAN # merkkiä, ja sen jälkeen vaikka FI , jolloin se hakee päivitykset localbitcoins.com/country_rss/FI
+
+Toivottavasti tykkäät! :)
+
+
